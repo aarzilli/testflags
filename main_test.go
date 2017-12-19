@@ -1,10 +1,9 @@
-package testflags_test
+package main
 
 import (
 	"testing"
-	"github.com/aarzilli/testflags"
 )
 
 func TestSomefunc(t *testing.T) {
-	testflags.Somefunc()
+	Somefunc()
 }
